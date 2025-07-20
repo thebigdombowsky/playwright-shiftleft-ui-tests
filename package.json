@@ -2,11 +2,14 @@
   "name": "playwright-shiftleft-ui-tests",
   "version": "1.0.0",
   "scripts": {
-    "test": "playwright test"
+    "test": "cucumber-js"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
     "@playwright/test": "^1.44.0",
-    "axe-core": "^4.8.2",
+    "@types/node": "^24.0.15",
+    "axe-core": "^4.10.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
